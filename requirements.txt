@@ -4,3 +4,4 @@ beautifulsoup4
 textstat
 pdfminer.six
 pyperclip
+textblob
