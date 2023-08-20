@@ -116,9 +116,6 @@ elif option == 'PDF Extractor':
             content = extract_pdf_content(pdf_stream)
         st.text_area('Extracted Content:', content, height=300)
 
-if (url or uploaded_file or pdf_url) and st.button('Copy to Clipboard'):
-    pyperclip.copy(content)
-    st.success('Content copied to clipboard!')
 
 if content:
     st.subheader(':bar_chart: Content Analysis')
