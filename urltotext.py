@@ -7,6 +7,14 @@ import pyperclip
 import textstat
 from textblob import TextBlob
 
+# Set the page config
+st.set_page_config(
+    page_title="Text Extractor 📝",  # Emoji in the title
+    page_icon="📝",  # Emoji as favicon
+    layout="wide",  # Use the wide layout
+    initial_sidebar_state="collapsed",  # Sidebar state
+)
+
 
 # Add the welcome description at the top of the main page
 st.write("""
